@@ -1,10 +1,133 @@
+<!DOCTYPE html>
 <html>
 
-<head>Pagina informacion</head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>index</title>
+    <meta name="description" content="adobes proyectos">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
 
 <body>
-  <h3>En Desarrollo...</h3>
-  Proyecto : Ana Maria Rios Reyes
+    <div class="modal fade" role="dialog" tabindex="-1" id="qrCode">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title"></h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body text-center">
+                    <p>Escanea El siguiente Codigo</p><img src="assets/img/qr_img.png" width="300" height="300"></div>
+                <div class="modal-footer"></div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+        <div class="container"><a class="navbar-brand logo" href="index.html">Los Adobes</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navbarNav">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#" data-toggle="modal" data-target="#qrCode"><i class="fa fa-qrcode"></i>&nbsp;</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="projects-grid-cards.html">Inicio</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#presentaciovideo">Video Presentación</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div>
+        <div class="container"></div>
+    </div>
+    <main class="page projects-page">
+        <section class="shadow-lg portfolio-block projects-cards">
+            <div class="carousel slide" data-ride="carousel" id="carousel-1">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active"><img class="w-100 d-block rubberBand animated" src="assets/img/710b1430-aded-4202-90f7-38db3ab23cb0.jpg" alt="Slide Image"></div>
+                </div>
+                <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button"
+                        data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a></div>
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                </ol>
+            </div>
+            <section class="portfolio-block block-intro">
+                <div class="container">
+                    <div>
+                        <div data-aos="fade-down" data-aos-duration="600" class="avatar" style="background-image: url(&quot;assets/img/anamaria.jpg&quot;);"></div>
+                    </div>
+                    <div class="about-me">
+                        <p class="text-uppercase text-info" data-aos="fade-up" data-aos-duration="550"><br>Hola! yo soy <strong>Ana Maria Rios Reyes</strong>. Fui Docente por 34 años, ahora soy empresaria, mi empresa se llama <strong>Los adobes</strong>, contamos con diferentes servicios como tienda de Artesanías, servicio de restaurante
+                            Los Adobes, Servicio de Cafetería El Guateque, Servicio de hospedaje con diseño tipo cabaña.<br><br></p><a class="btn btn-outline-primary invisible" role="button" href="#">leer más</a></div>
+                </div>
+            </section>
+            <div class="container">
+                <div class="heading">
+                    <h2 data-aos="zoom-out-left" data-aos-duration="850">Mi Crecimiento Empresarial</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><a href="#"><img src="assets/img/456a8320-adad-4f78-b972-85bbd28c8fab.jpg" alt="Card Image" data-aos="fade-right" data-aos-duration="700" class="card-img-top scale-on-hover"></a>
+                            <div class="card-body">
+                                <h6 data-aos="fade-left" data-aos-duration="700"><a href="#">Tienda de Artesanias</a></h6>
+                                <p class="text-muted card-text" data-aos="fade-right" data-aos-duration="700">Proyecto iniciado por mi madre y ahora doy continuidad</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><a href="#"><img src="assets/img/710b1430-aded-4202-90f7-38db3ab23cb0.jpg" alt="Card Image" data-aos="zoom-in" data-aos-duration="700" class="card-img-top scale-on-hover"></a>
+                            <div class="card-body">
+                                <h6 data-aos="zoom-in-down" data-aos-duration="700"><a href="#">Restaurante Los Adobes</a></h6>
+                                <p class="text-muted card-text" data-aos="zoom-in-up" data-aos-duration="700">Mi primer Crecimiento como Empresa</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><a href="#"><img src="assets/img/66543a6d-fe41-4204-bc46-405416d25fb9.jpg" alt="Card Image" data-aos="fade-left" data-aos-duration="700" class="card-img-top scale-on-hover"></a>
+                            <div class="card-body">
+                                <h6><a href="#" data-aos="zoom-in-down" data-aos-duration="700">Cafeteria El Guateque</a></h6>
+                                <p class="text-muted card-text" data-aos="zoom-out" data-aos-duration="700">Con la participación de mi familia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><a href="#"><img src="assets/img/0a38e0f3-40d1-4a69-9eb4-c791efdea13d.jpg" alt="Card Image" data-aos="zoom-out-right" data-aos-duration="700" class="card-img-top scale-on-hover"></a>
+                            <div class="card-body">
+                                <h6><a href="#" data-aos="zoom-out-up" data-aos-duration="700">Cabañas Los Adobes</a></h6>
+                                <p class="text-muted card-text" data-aos="zoom-out" data-aos-duration="750">Ampliando Experiencias</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section></section>
+        </section>
+    </main>
+    <div>
+        <div class="container">
+            <div class="row" id="presentaciovideo">
+                <div class="col-md-12 col-lg-8 offset-lg-3">
+                    <div><iframe class="bg-secondary border rounded-0 border-primary shadow-lg" width="100%" height="315" allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/VftXSQjlSF0?showinfo=0&amp;rel=0"></iframe></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="links"><a href="http://teotihuacan.nguideqr.mx/RLosAdobes.html" target="_blank">Sitio Web</a></div>
+            <div class="social-icons"></div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
 </body>
 
 </html>
